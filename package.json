@@ -1,0 +1,17 @@
+{
+  "name": "ethers-attest",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Layout do recibo AFiR v1 e chamada de verify_afir_receipt com a chave pública do host. Não assina transações Ethereum.",
+  "type": "module",
+  "main": "./src/afir.js",
+  "types": "./src/afir.d.ts",
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
